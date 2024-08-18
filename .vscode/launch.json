@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClassroomScheduling",
+            "request": "launch",
+            "mainClass": "ClassroomScheduling",
+            "projectName": "DSA_3d7d5ae2"
+        },
+        {
+            "type": "java",
+            "name": "RouteOptimizationGUI",
+            "request": "launch",
+            "mainClass": "RouteOptimizationGUI",
+            "projectName": "DSA_3d7d5ae2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "FileConversionGUI",
+            "classPaths": [
+                "lib/pdfbox-2.0.26.jar",
+                "lib/poi-ooxml-5.2.3.jar",
+                "lib/poi-5.2.3.jar"
+            ]
+        }
+    ]
+}
